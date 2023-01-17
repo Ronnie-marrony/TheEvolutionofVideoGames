@@ -202,6 +202,7 @@ display: flex;
 justify-content: center;
 margin: 30px 0px;
 padding: 15px;
+transition: 3s;
 }
 
 .contact-section {
@@ -226,6 +227,10 @@ fieldset {
 .contact-title {
     text-align: center;
 
+}
+
+section span{
+    color:gold;
 }
 
 @media only screen and (max-width:768px) {
@@ -307,5 +312,30 @@ iframe {
 
 }
 
+@media (max-width: 700px) and (min-width: 400px){
+    .texto {
+        text-align: left;
+        color:blue;
+    }
+}
 
 
+/*Pseudoclase*/
+
+.form-container--fieldset:hover {
+    text-decoration: overline;
+}
+
+/*Pseudoelementos*/
+
+p::first-line {
+    color:darkgoldenrod;
+}
+
+p::selection {
+    background-color: coral;
+}
+
+p::before {
+    content: "🎮🕹️";
+}
