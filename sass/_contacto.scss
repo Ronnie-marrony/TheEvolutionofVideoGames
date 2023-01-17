@@ -1,0 +1,43 @@
+/* contacto */
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+display: flex;
+justify-content: center;
+margin: 30px 0px;
+padding: 15px;
+transition: 3s;
+}
+
+.contact-section {
+    margin: 50px;
+    color: blue;
+    background-color: forestgreen;
+    font-size: 1.3rem;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+.form-container--fieldset {
+    padding: 20px;  
+    background-color: greenyellow;
+    border: 1px solid; 
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.contact-title {
+    text-align: center;
+
+}
+
+section span{
+    color:gold;
+}

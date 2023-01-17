@@ -1,0 +1,24 @@
+
+/* galeria */
+
+.galery-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+    }
+
+.galery-container img {
+    @include sizes (350px, 350px);
+}
+
+.galery-container:hover {
+    transform: scale(1.07);
+}
