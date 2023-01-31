@@ -36,6 +36,16 @@ header .nav-link {
   animation: ease-in animation 1s;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkgoldenrod;
+  color:aliceblue;
+  text-align: center;
+}
+
 @keyframes animation {
   0% {
     transform: scale(0);
